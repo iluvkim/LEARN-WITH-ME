@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+    
+
+    int number;
+    printf("ENTER THE NUMBER: ");
+    scanf("%d", &number);
+    
+    int count = 1;
+    
+    while (count <= 12){
+        int product = number * count;
+        printf("%d*%d = %d\n", number, count, product);
+        count = count + 1;
+        
+        //miltpliaction table from 1 to 12
+        //thanks to the indian lady yk this😘
+    }
+    
+    return 0;
+}
